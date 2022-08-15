@@ -1,0 +1,94 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10vw;
+    background-color: #121212;
+    height: 115px;
+}
+
+.menuItems {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 96px;
+    font-family: 'Maison Neue', serif;
+    font-size: 1em;
+}
+
+.item {
+    display: inline-block;
+    position: relative;
+    color: #ffffff;
+}
+
+.item:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.item:hover {
+    cursor: pointer;
+}
+
+.item:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.menuHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+
+}
+
+.menuMain {
+    background-color: #121212;
+    height: 100vh;
+    padding:16px 32px;
+    position: absolute;
+    top:0;
+    width: 100vw;
+    overflow: auto;
+}
+
+.menuItemsBig {
+    display: flex;
+    justify-content: end;
+    font-family: 'Maison Neue', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 60px;
+    padding-top: 24px;
+    text-align: right;
+    border-bottom: 1px solid #A3A3A3;
+    cursor: pointer;
+}
+
+.menuItemsBig > img {
+    display: none;
+    opacity: 0;
+}
+
+.menuItemsBig:hover > img {
+    display: block;
+    height: 2rem;
+    align-self: center;
+    margin: 10px;
+    opacity: 1;
+    transition:0.5s
+}
+

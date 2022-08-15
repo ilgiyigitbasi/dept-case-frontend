@@ -14,6 +14,24 @@ a {
 * {
   box-sizing: border-box;
 }
+.animation-enter {
+  opacity: 0;
+  transform:translateY(-100%);
+}
+.animation-enter-active {
+  opacity: 1;
+  transform:translateY(0);
+  transition: opacity 300ms, transform 300ms;
+}
+.animation-exit {
+  opacity: 1;
+  transform:translateY(0);
+}
+.animation-exit-active {
+  opacity: 0;
+  transform:translateY(-100%);
+  transition: opacity 300ms, transform 300ms;
+}
 
 @media (prefers-color-scheme: dark) {
   html {
@@ -21,6 +39,10 @@ a {
   }
   body {
     color: white;
-    background: black;
+    background: white;
   }
+}
+@font-face {
+  font-family: 'Maison Neue';
+  src: url(../assets/MaisonNeueTRIAL-Thin.otf);
 }

@@ -1,0 +1,40 @@
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "Maison Neue", serif ;
+    padding: 16px;
+    font-size:1.1em;
+}
+.mainContainer span {
+    color: #A3A3A3;
+}
+
+.customSelect {
+    border: none;
+    background: transparent;
+    font-family: "Maison Neue", serif;
+    font-size: 1.1em;
+    color: #121212;
+    text-decoration: underline;
+
+}
+.customSelect:focus {
+    outline: transparent;
+}
+
+.list {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.listItem {
+    background-size: cover;
+    background-position: center;
+    min-height: 75vh;
+    display: flex;
+    font-family: "Maison Neue", serif;
+   justify-content: end;
+    flex-direction: column;
+    padding: 32px;
+    font-size: 1.4em;
+}
