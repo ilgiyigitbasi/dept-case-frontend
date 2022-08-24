@@ -1,0 +1,56 @@
+.mainContainer {
+    background-color: #0E0E0E;
+    padding: 60px;
+    font-family: "Maison Neue", serif;
+}
+
+.firstRow {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    align-items: center;
+    padding-bottom: 66px;
+    border-bottom: 1px solid #3E3E3E;;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    align-items: end;
+}
+
+.item {
+    display: inline-block;
+    position: relative;
+    color: #ffffff;
+}
+
+.item:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.item:hover {
+    cursor: pointer;
+}
+
+.item:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.secondRow {
+   display: grid;
+    grid-template-columns: 60% 40%;
+    align-items: center;
+    color:  #808080;
+    font-size: 0.8rem;
+    padding: 35px 0;
+}

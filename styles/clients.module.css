@@ -1,0 +1,21 @@
+.brandsList {
+    display: grid;
+    grid-template-columns: repeat(3, 33.3%);
+    padding: 40px;
+
+}
+.mainContainer {
+    background-color: #121212;
+    padding: 54px 48px;
+    font-family: "Maison Neue", serif;
+}
+
+.brandsList > div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.mainContainer > h3 {
+    font-size: 1.5rem;
+}

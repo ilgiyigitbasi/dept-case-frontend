@@ -7,6 +7,12 @@ import HeroSection from "../components/heroSection";
 import FilterAndList from "../components/filterAndList";
 import {CSSTransition} from "react-transition-group";
 
+
+
+import ClientQuote from "../components/clientQuote";
+import Clients from "../components/clients";
+import Footer from "../components/footer";
+
 export default function Home() {
 
     const [showMenu, setShowMenu] = useState(false)
@@ -20,15 +26,23 @@ export default function Home() {
             </Head>
 
             <main>
+
+
                 <Header showMenu={() => setShowMenu(!showMenu)}/>
-                <CSSTransition in={showMenu} timeout={300} classNames="animation" unmountOnExit><Menu closeMenu={()=> setShowMenu(false)}/></CSSTransition>
+                <CSSTransition in={showMenu} timeout={300} classNames="animation" unmountOnExit><Menu
+                    closeMenu={() => setShowMenu(false)}/></CSSTransition>
+
                 <HeroSection/>
                 <FilterAndList/>
+                <ClientQuote/>
+                <Clients/>
 
 
             </main>
 
             <footer className={styles.footer}>
+
+                <Footer/>
 
             </footer>
         </div>
