@@ -1,7 +1,6 @@
 .main {
     min-height: 600px;
-    width: 100vw;
-    background-image: url("../public/hero1.png") ;
+    background: linear-gradient(358.53deg, rgba(0, 0, 0, 0.33) 1.79%, rgba(0, 0, 0, 0) 99.33%), url("../public/hero1.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

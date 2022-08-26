@@ -1,0 +1,23 @@
+.mainContainer {
+    display: flex;
+    font-family: "Maison Neue", serif;
+    padding: 50px;
+    color: #121212;
+}
+
+.mainContainer > p {
+    font-size: 2.5rem;
+    line-height: 70px;
+
+    max-width: 20vw;
+
+}
+.inputContainer {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between;
+}
+
+.mainContainer > input {
+
+}

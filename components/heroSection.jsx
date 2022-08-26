@@ -10,10 +10,6 @@ const HeroSection = () => {
                 <p>A selection of projects that <b>pioneer tech</b> and <b>marketing</b> to help brands stay ahead.</p>
             </div>
 
-
-
-
-
         </div>
     );
 };

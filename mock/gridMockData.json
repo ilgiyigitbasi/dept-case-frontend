@@ -1,0 +1,118 @@
+[
+  {
+    "title": "BOL.COM",
+    "subtitle": "A Summer island in the Netherlands",
+    "imageUrl": "/image4.png",
+    "type": "list"
+  },
+  {
+    "title": "KEMPEN",
+    "subtitle": "Not some average banking website",
+    "imageUrl": "/image5.png",
+    "type": "list"
+  },
+  {
+    "title": "PHILIPS",
+    "subtitle": "Beautiful design meets innovative technology",
+    "imageUrl": "/image6.png",
+    "type": "list"
+  },
+  {
+    "title": "GEMEENTEMUSEUM",
+    "subtitle": "A 100 years of Mondriaan & De Stijl",
+    "imageUrl": "/image7.png",
+    "type": "list"
+  },
+  {
+    "title": "FLORENSIS",
+    "subtitle": "Rethinking the entire online ecosystem",
+    "imageUrl": "/image3.png",
+    "type": "listRight",
+    "listSection": [
+      {
+        "title": "Microsoft",
+        "description": "Tapping into Ireland’s unique gaming culture and bringing a fresh flavour to their Xbox social media channels"
+      },
+      {
+        "title": "O'NEILL",
+        "description": "Integrating existing content into O’Neills’s new e-commerce platform"
+      },
+      {
+        "title": "Microsoft",
+        "description": "Tapping into Ireland’s unique gaming culture and bringing a fresh flavour to their Xbox social media channels"
+      }
+    ]
+  },
+  {
+    "title": "BE LIGHTNING",
+    "subtitle": "Delivering clarity on a global scale",
+    "imageUrl": "/image8.png",
+    "type": "list"
+  },
+  {
+    "title": "TUI",
+    "subtitle": "Swipe to find your next holiday destination",
+    "imageUrl": "/image9.png",
+    "type": "list"
+  },
+  {
+    "title": "FLORENSIS",
+    "subtitle": "Rethinking the entire online ecosystem",
+    "imageUrl": "/image3.png",
+    "type": "listLeft",
+    "listSection": [
+      {
+        "title": "Microsoft",
+        "description": "Tapping into Ireland’s unique gaming culture and bringing a fresh flavour to their Xbox social media channels"
+      },
+      {
+        "title": "O'NEILL",
+        "description": "Integrating existing content into O’Neills’s new e-commerce platform"
+      },
+      {
+        "title": "Microsoft",
+        "description": "Tapping into Ireland’s unique gaming culture and bringing a fresh flavour to their Xbox social media channels"
+      }
+    ]
+  },
+  {
+    "title": "CHOCOMEL",
+    "subtitle": "A campaign for the limited edition letter packs",
+    "imageUrl": "/image10.png",
+    "type": "list"
+  },
+  {
+    "title": "JBL",
+    "subtitle": "Live like a champion with Jerome Boateng",
+    "imageUrl": "/image11.png",
+    "type": "list"
+  },
+  {
+    "title": "ZALANDO",
+    "subtitle": "Innovative SEO and content strategy for Zalandog",
+    "imageUrl": "/image12.png",
+    "type": "list"
+  },
+  {
+    "title": "KONINKLIJKE BIBLIOTHEEK",
+    "subtitle": "The search of the most influential book ever",
+    "imageUrl": "/image13.png",
+    "type": "list"
+  },
+  {
+    "subtitle": "Dept helped us tell our story through a bold new identity and a robust online experience. To the tone of 60% growth in online bookings in just one month",
+    "type": "quote",
+    "client": "MATTIJS TEN DRINK - CEO, TRANSAVIA"
+  },
+  {
+    "title": "LIBERTY GLOBAL",
+    "subtitle": "Delivering complex commerce solutions",
+    "imageUrl": "/image14.png",
+    "type": "list"
+  } ,{
+    "title": "ARLA",
+    "subtitle": "Swipe to find your next holiday destination",
+    "imageUrl": "/image15.png",
+    "type": "list"
+  }
+]

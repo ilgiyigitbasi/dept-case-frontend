@@ -4,14 +4,11 @@ import Header from "../components/Header";
 import Menu from "../components/Menu"
 import {useState} from "react";
 import HeroSection from "../components/heroSection";
-import FilterAndList from "../components/filterAndList";
+import FilterAndList from "../components/filterAndList/filterAndList";
 import {CSSTransition} from "react-transition-group";
-
-
-
-import ClientQuote from "../components/clientQuote";
 import Clients from "../components/clients";
 import Footer from "../components/footer";
+import Form from "../components/form";
 
 export default function Home() {
 
@@ -34,9 +31,8 @@ export default function Home() {
 
                 <HeroSection/>
                 <FilterAndList/>
-                <ClientQuote/>
                 <Clients/>
-
+                <Form/>
 
             </main>
 
