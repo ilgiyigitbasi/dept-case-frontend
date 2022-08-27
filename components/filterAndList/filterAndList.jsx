@@ -18,12 +18,11 @@ const FilterAndList = () => {
             setMockDataFiltered(mockData.filter((i) => i.type === 'list').filter((k) => k.industry === industry).splice(0, filterNumber))
         } else if (industry !== '' && filterNumber === 0) {
             setMockDataFiltered(mockData.filter((i) => i.industry === industry))
-        } else if (filterNumber !== 0 && industry === '') {
+        } else if (filterNumber > 0 && industry === '') {
             setMockDataFiltered(mockData.filter((i) => i.type === 'list').splice(0, filterNumber))
         } else {
             setMockDataFiltered(mockData)
         }
-
 
     }, [filterNumber, industry]);
 
@@ -43,6 +42,7 @@ const FilterAndList = () => {
     }
 
     function handChangeNumber(e) {
+        console.log(e.target.value)
         setFilterNumber(e.target.value)
     }
 

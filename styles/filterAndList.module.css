@@ -79,9 +79,6 @@
     justify-self: end;
 }
 .list {
-
-    padding:  0 10vh;
-
 }
 
 @media screen and (max-width: 600px) {
