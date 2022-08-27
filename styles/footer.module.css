@@ -62,6 +62,15 @@
 .socialMediaIcons {
     text-align: end;
 }
+.footerContainer {
+    display: grid;
+    grid-template-columns: 93% 7%;
+    background-color: white;
+    color: #5115F7;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 
 @media screen and (max-width: 600px) {
     .mainContainer {
