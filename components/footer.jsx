@@ -1,5 +1,6 @@
 import React from 'react';
 import Styles from "../styles/footer.module.css";
+import Image from "next/image";
 
 const Footer = () => {
     const menuItems = ['Work', 'Culture', 'Services', 'Insights', 'Careers', 'Contacts']
@@ -8,12 +9,12 @@ const Footer = () => {
         <>
             <div className={Styles.mainContainer}>
             <div className={Styles.firstRow}>
-               <div className={Styles.menu}> <img src="/DEPTWhite.png" alt="dept" height={25} width={88.04}/>
-                   <div style={{display:'flex', justifyContent:'space-around'}}> {menuItems.map((name)=> <span className={Styles.item} key={name}>{name}</span>)}</div>
+               <div className={Styles.menu}> <Image className={Styles.logo} src="/DEPTWhite.png" alt="dept" height={25} width={88.04}/>
+                   <div className={Styles.menuItems}> {menuItems.map((name)=> <span className={Styles.item} key={name}>{name.toUpperCase()}</span>)}</div>
 
                </div>
 
-                <div style={{ textAlign:'end'}}>
+                <div className={Styles.socialMediaIcons}>
                     {socialMediaIcons.map((icon)=> <img alt="" style={{marginLeft: '10px'}} key={icon} src={icon} height={15}/>)}
                 </div>
 

@@ -6,13 +6,8 @@ const scaledCard = (props) => {
     let item = props
     return (
         <>
-            <div style={item.type === 'listRight' ? {gridColumnStart: 1, gridColumnEnd: 3} : {
-                gridColumnStart: 1,
-                gridColumnEnd: 3,
-                direction: 'rtl',
-                textAlign: 'end'
-            }}>
-                <div style={{display: 'grid', gridTemplateColumns: '65% 35%'}}>
+            <div className={item.type === 'listRight' ? Styles.scaledRight : Styles.scaledLeft}>
+                <div className={Styles.scaledCardMainSection}>
                     <div>
                         <div key={item.title} className={Styles.listItem} style={{
                             backgroundImage: `url(${item?.imageUrl})`,
@@ -30,7 +25,7 @@ const scaledCard = (props) => {
 
                         </div>
                     </div>
-                    <div style={{display: 'grid', justifySelf: 'end'}}>
+                    <div className={Styles.scaledCardImageSection}>
                         {item?.listSection?.map((listItem) => <div key={listItem.name}
                                                                    className={Styles.scaledCardListItem}>
                             <p>{listItem.title}</p>

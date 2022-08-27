@@ -1,5 +1,6 @@
 .mainContainer {
-    display: flex;
+    display: grid;
+    grid-template-columns: 30% 70%;
     font-family: "Maison Neue", serif;
     padding: 50px;
     color: #121212;
@@ -8,16 +9,52 @@
 .mainContainer > p {
     font-size: 2.5rem;
     line-height: 70px;
-
     max-width: 20vw;
 
 }
-.inputContainer {
-    display: flex;
-    flex-direction: row !important;
-    justify-content: space-between;
+
+
+
+.form {
+    display: grid;
+    grid-template-columns: repeat(2, 30%);
+    grid-column-gap: 5%;
+
 }
 
-.mainContainer > input {
+.formInput {
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid  #DDDDDD;
+    color: black;
+    padding: 10px;
+    background: white;
+    width: 100%;
 
+}
+.submitButton {
+    border-radius: 25px;
+    background: white;
+    color: black;
+    border: 1px solid black;
+    padding: 10px 25px;
+    margin-top: 24px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .mainContainer{
+        grid-template-columns: 100% ;
+    }
+    .mainContainer > p {
+        font-size: 1.6rem;
+        line-height: 2rem;
+        max-width: 100%;
+    }
+    .form {
+        grid-template-columns: 100%;
+    }
+    .submitButton {
+        width: 100%;
+    }
 }

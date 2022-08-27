@@ -29,7 +29,7 @@ const FilterAndList = () => {
                     </select>
                 </div>
 
-                <div>
+                <div >
                     <span>in </span>
                     <select className={Styles.customSelect}>
                         <option>All industires</option>
@@ -39,7 +39,7 @@ const FilterAndList = () => {
 
                 </div>
             </div>
-            <div className={Styles.list}>
+            <div  className={Styles.list}>
                 {mockData.map((item) => showCards(item))}
             </div>
 

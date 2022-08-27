@@ -62,6 +62,7 @@
     top:0;
     width: 100vw;
     overflow: auto;
+    z-index: 2;
 }
 
 .menuItemsBig {
@@ -91,4 +92,17 @@
     opacity: 1;
     transition:0.5s
 }
-
+.responsiveMenu {
+    padding: 3vw;
+    display: flex;
+    color: #3E3E3E;
+    justify-content: space-between;
+    font-family: "Maison Neue", serif;
+}
+@media screen and (max-width: 600px) {
+    .main {
+        background-color: white;
+        height: 5vh;
+        gap: 0
+    }
+}

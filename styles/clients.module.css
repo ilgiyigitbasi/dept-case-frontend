@@ -19,3 +19,10 @@
 .mainContainer > h3 {
     font-size: 1.5rem;
 }
+
+@media screen and (max-width: 600px) {
+    .brandsList {
+        padding: 54px 24px;
+        grid-template-columns: repeat(2, 50%);
+    }
+}

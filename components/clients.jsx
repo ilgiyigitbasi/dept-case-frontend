@@ -4,7 +4,7 @@ import Styles from '../styles/clients.module.css'
 const Clients = () => {
     const brandsList = [
         '/image64.png', '/image66.png', '/image68.png', '/image72.png', '/image74.png', '/image63.png', '/image65.png', '/image67.png',
-        '/image71.png'
+        '/image71.png', '/image57.png', '/image58.png', '/image61.png'
     ]
     return (
         <>

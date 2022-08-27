@@ -9,10 +9,15 @@ import {CSSTransition} from "react-transition-group";
 import Clients from "../components/clients";
 import Footer from "../components/footer";
 import Form from "../components/form";
+import 'aos/dist/aos.css';
+
+
 
 export default function Home() {
 
     const [showMenu, setShowMenu] = useState(false)
+
+
 
     return (
         <div>

@@ -18,6 +18,11 @@
     align-items: end;
 }
 
+.menuItems {
+    display: flex;
+    justify-content: space-around;
+}
+
 .item {
     display: inline-block;
     position: relative;
@@ -47,10 +52,49 @@
 }
 
 .secondRow {
-   display: grid;
+    display: grid;
     grid-template-columns: 60% 40%;
     align-items: center;
-    color:  #808080;
+    color: #808080;
     font-size: 0.8rem;
     padding: 35px 0;
+}
+.socialMediaIcons {
+    text-align: end;
+}
+
+@media screen and (max-width: 600px) {
+    .mainContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .menuItems {
+        flex-direction: column;
+        height: 30vh;
+    }
+    .logo {
+        display: none !important;
+    }
+    .socialMediaIcons {
+        display: grid;
+        justify-content: flex-end;
+        height: 15vh;
+
+    }
+
+    .secondRow {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        height: 18vh;
+        justify-content: space-between;
+        padding: 35px 0 0 0 ;
+    }
+
 }

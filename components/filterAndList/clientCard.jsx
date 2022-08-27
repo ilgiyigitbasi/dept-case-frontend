@@ -1,13 +1,19 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import Styles from "../../styles/filterAndList.module.css";
 import Image from "next/image";
+import AOS from "aos";
 
 const ClientCard = (props) => {
     let item = props
+    useEffect(() => {
+        AOS.init({
+            duration: 1200,
+        })
+    }, []);
     return (
         <>
 
-                <div key={item.title} className={Styles.listItem} style={{
+                <div key={item.title} data-aos="fade-up" className={Styles.listItem} style={{
                     background: `linear-gradient(358.53deg, rgba(0, 0, 0, 0.33) 1.79%, rgba(0, 0, 0, 0) 99.33%),url(${item.imageUrl})`
 
                 }}>
