@@ -7,7 +7,7 @@ const scaledCard = (props) => {
     return (
         <>
             <div className={item.type === 'listRight' ? Styles.scaledRight : Styles.scaledLeft}>
-                <div className={Styles.scaledCardMainSection}>
+                <div data-aos="fade-up" className={Styles.scaledCardMainSection}>
                     <div>
                         <div key={item.title} className={Styles.listItem} style={{
                             backgroundImage: `url(${item?.imageUrl})`,
@@ -25,11 +25,11 @@ const scaledCard = (props) => {
 
                         </div>
                     </div>
-                    <div className={Styles.scaledCardImageSection}>
+                    <div data-aos="fade-up" className={Styles.scaledCardImageSection}>
                         {item?.listSection?.map((listItem) => <div key={listItem.name}
                                                                    className={Styles.scaledCardListItem}>
                             <p>{listItem.title}</p>
-                            <p>{listItem.description}</p>
+                            <p>{listItem.subtitle}</p>
                             <div style={{fontSize: '0.5em'}}><Image src="/Group17.png" width={10} height={10}
                                                                     alt=""/> &nbsp;  Read
                                 More

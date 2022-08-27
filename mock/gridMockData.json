@@ -3,43 +3,48 @@
     "title": "BOL.COM",
     "subtitle": "A Summer island in the Netherlands",
     "imageUrl": "/image4.png",
-    "type": "list"
+    "type": "list",
+    "industry": "tourism"
   },
   {
     "title": "KEMPEN",
     "subtitle": "Not some average banking website",
     "imageUrl": "/image5.png",
-    "type": "list"
+    "type": "list",
+    "industry": "technology"
   },
   {
     "title": "PHILIPS",
     "subtitle": "Beautiful design meets innovative technology",
     "imageUrl": "/image6.png",
-    "type": "list"
+    "type": "list",
+    "industry": "technology"
   },
   {
     "title": "GEMEENTEMUSEUM",
     "subtitle": "A 100 years of Mondriaan & De Stijl",
     "imageUrl": "/image7.png",
-    "type": "list"
+    "type": "list",
+    "industry": "other"
   },
   {
     "title": "FLORENSIS",
     "subtitle": "Rethinking the entire online ecosystem",
     "imageUrl": "/image3.png",
     "type": "listRight",
+    "industry": "technology",
     "listSection": [
       {
         "title": "Microsoft",
-        "description": "Tapping into Ireland’s unique gaming culture and bringing a fresh flavour to their Xbox social media channels"
+        "subtitle": "Tapping into Ireland’s unique gaming culture and bringing a fresh flavour to their Xbox social media channels"
       },
       {
         "title": "O'NEILL",
-        "description": "Integrating existing content into O’Neills’s new e-commerce platform"
+        "subtitle": "Integrating existing content into O’Neills’s new e-commerce platform"
       },
       {
         "title": "Microsoft",
-        "description": "Tapping into Ireland’s unique gaming culture and bringing a fresh flavour to their Xbox social media channels"
+        "subtitle": "Tapping into Ireland’s unique gaming culture and bringing a fresh flavour to their Xbox social media channels"
       }
     ]
   },
@@ -47,31 +52,34 @@
     "title": "BE LIGHTNING",
     "subtitle": "Delivering clarity on a global scale",
     "imageUrl": "/image8.png",
-    "type": "list"
+    "type": "list",
+    "industry": "other"
   },
   {
     "title": "TUI",
     "subtitle": "Swipe to find your next holiday destination",
     "imageUrl": "/image9.png",
-    "type": "list"
+    "type": "list",
+    "industry": "tourism"
   },
   {
     "title": "FLORENSIS",
     "subtitle": "Rethinking the entire online ecosystem",
     "imageUrl": "/image3.png",
     "type": "listLeft",
+    "industry": "other",
     "listSection": [
       {
         "title": "Microsoft",
-        "description": "Tapping into Ireland’s unique gaming culture and bringing a fresh flavour to their Xbox social media channels"
+        "subtitle": "Tapping into Ireland’s unique gaming culture and bringing a fresh flavour to their Xbox social media channels"
       },
       {
         "title": "O'NEILL",
-        "description": "Integrating existing content into O’Neills’s new e-commerce platform"
+        "subtitle": "Integrating existing content into O’Neills’s new e-commerce platform"
       },
       {
         "title": "Microsoft",
-        "description": "Tapping into Ireland’s unique gaming culture and bringing a fresh flavour to their Xbox social media channels"
+        "subtitle": "Tapping into Ireland’s unique gaming culture and bringing a fresh flavour to their Xbox social media channels"
       }
     ]
   },
@@ -79,40 +87,49 @@
     "title": "CHOCOMEL",
     "subtitle": "A campaign for the limited edition letter packs",
     "imageUrl": "/image10.png",
+    "industry": "others",
     "type": "list"
   },
   {
     "title": "JBL",
     "subtitle": "Live like a champion with Jerome Boateng",
     "imageUrl": "/image11.png",
+    "industry": "technology",
     "type": "list"
   },
   {
     "title": "ZALANDO",
     "subtitle": "Innovative SEO and content strategy for Zalandog",
     "imageUrl": "/image12.png",
-    "type": "list"
+    "type": "list",
+    "industry": "technology"
   },
   {
     "title": "KONINKLIJKE BIBLIOTHEEK",
     "subtitle": "The search of the most influential book ever",
     "imageUrl": "/image13.png",
-    "type": "list"
+    "type": "list",
+    "industry": "other"
   },
   {
     "subtitle": "Dept helped us tell our story through a bold new identity and a robust online experience. To the tone of 60% growth in online bookings in just one month",
     "type": "quote",
-    "client": "MATTIJS TEN DRINK - CEO, TRANSAVIA"
+    "client": "MATTIJS TEN DRINK - CEO, TRANSAVIA",
+    "industry": "all"
   },
   {
     "title": "LIBERTY GLOBAL",
     "subtitle": "Delivering complex commerce solutions",
     "imageUrl": "/image14.png",
+    "industry": "other",
     "type": "list"
-  } ,{
+  },
+  {
     "title": "ARLA",
     "subtitle": "Swipe to find your next holiday destination",
     "imageUrl": "/image15.png",
+    "industry": "other",
     "type": "list"
   }
+
 ]

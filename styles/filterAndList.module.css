@@ -23,7 +23,7 @@
     outline: transparent;
 }
 
-.list {
+.grid {
     display: grid;
     grid-template-columns: repeat(2, 50%);
 }
@@ -78,9 +78,14 @@
     display: grid;
     justify-self: end;
 }
+.list {
+
+    padding:  0 10vh;
+
+}
 
 @media screen and (max-width: 600px) {
-    .list {
+    .grid {
         display: flex;
         flex-direction: column;
         background-color: #121212;
