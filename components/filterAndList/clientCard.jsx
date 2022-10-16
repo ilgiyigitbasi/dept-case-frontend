@@ -7,7 +7,7 @@ const ClientCard = (props) => {
     let item = props
     useEffect(() => {
         AOS.init({
-            duration: 1200,
+            duration: 500,
         })
     }, []);
     return (

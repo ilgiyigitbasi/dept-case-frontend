@@ -78,7 +78,21 @@
     display: grid;
     justify-self: end;
 }
-.list {
+
+.filterSection {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+
+}
+
+.asText {
+    margin: 0 20px;
+}
+
+.gridText {
+    color: #121212;
+    text-decoration: underline;
 }
 
 @media screen and (max-width: 600px) {

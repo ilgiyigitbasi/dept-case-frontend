@@ -42,7 +42,6 @@ const FilterAndList = () => {
     }
 
     function handChangeNumber(e) {
-        console.log(e.target.value)
         setFilterNumber(e.target.value)
     }
 
@@ -58,7 +57,7 @@ const FilterAndList = () => {
                     </select>
                 </div>
 
-                <div style={{display: 'flex', alignItems: 'center', marginRight:'10px'}}>
+                <div className={Styles.filterSection}>
                     <span>in </span>
                     <select onChange={(e) => handleChangeIndustry(e)} className={Styles.customSelect}>
                         <option value={''}>All Industries</option>
@@ -68,8 +67,8 @@ const FilterAndList = () => {
                     </select>
 
 
-                    <span style={{margin: '0 20px'}}>as </span>
-                    <span style={{color:'#121212', textDecoration:'underline'}} onClick={() => setIsViewGrid(!isViewGrid)}>{isViewGrid ?
+                    <span className={Styles.asText}>as </span>
+                    <span className={Styles.gridText} onClick={() => setIsViewGrid(!isViewGrid)}>{isViewGrid ?
                         'Grid' :
                         'List'
                     }</span>
@@ -78,7 +77,7 @@ const FilterAndList = () => {
                 </div>
 
             </div>
-            <div className={isViewGrid ? Styles.grid : Styles.list}>
+            <div className={isViewGrid ? Styles.grid : ''}>
                 {isViewGrid ? mockDataFiltered.map((item) => showCards(item)) :
                     mockDataFiltered.filter((i) => i.type === 'list').map((item) => <ListView
                         key={item.title} {...item}/>)

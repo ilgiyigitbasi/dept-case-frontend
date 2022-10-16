@@ -34,15 +34,12 @@ a {
   transition: opacity 300ms, transform 300ms;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+
   body {
     color: white;
     background: white;
   }
-}
+
 @font-face {
   font-family: 'Maison Neue';
   src: url(../assets/MaisonNeueTRIAL-Thin.otf);

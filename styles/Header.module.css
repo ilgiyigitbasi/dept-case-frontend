@@ -24,6 +24,7 @@
     display: inline-block;
     position: relative;
     color: #ffffff;
+    text-transform: uppercase;
 }
 
 .item:after {

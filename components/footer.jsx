@@ -11,7 +11,7 @@ const Footer = () => {
                 <div className={Styles.mainContainer}>
                     <div className={Styles.firstRow}>
                         <div className={Styles.menu}> <img className={Styles.logo} src="/DEPTWhite.png" alt="dept" height={25} width={88.04}/>
-                            <div className={Styles.menuItems}> {menuItems.map((name)=> <span className={Styles.item} key={name}>{name.toUpperCase()}</span>)}</div>
+                            <div className={Styles.menuItems}> {menuItems.map((name)=> <span className={Styles.item} key={name}>{name}</span>)}</div>
 
                         </div>
 
